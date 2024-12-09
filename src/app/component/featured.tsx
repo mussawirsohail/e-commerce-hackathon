@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 
 const FeaturedProducts = () => {
-  // Sample product data
   const products = [
     {
       image: '/fixed.png',
