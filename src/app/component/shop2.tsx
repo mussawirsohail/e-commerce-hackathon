@@ -12,9 +12,7 @@ const ShopPage = () => {
 
   return (
     <div className="bg-[#FAFAFA] min-h-screen p-6 ]">
-      {/* Product Section */}
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 bg-[#FAFAFA] p-6 h-[598px] w-[1050">
-        {/* Image Section */}
         <div>
           <img
             src="/shop1.png"
@@ -34,8 +32,6 @@ const ShopPage = () => {
             />
           </div>
         </div>
-
-        {/* Details Section */}
         <div>
           <h1 className="text-2xl font-bold text-gray-800">Floating Phone</h1>
           <div className="flex items-center gap-2 my-2">
@@ -48,25 +44,18 @@ const ShopPage = () => {
             Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
             RELIT official consequent door ENIM RELIT Mollie.
           </p>
-
-          {/* Color Options */}
           <div className="flex items-center gap-2 mt-4">
             <div className="w-6 h-6 bg-[#23A6F0] rounded-full"></div>
             <div className="w-6 h-6 bg-green-500 rounded-full"></div>
             <div className="w-6 h-6 bg-[#E77C40] rounded-full"></div>
             <div className="w-6 h-6 bg-black rounded-full"></div>
           </div>
-
-          {/* Buttons */}
           <button className="mt-[180px] bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
             Select Options
           </button>
         </div>
       </div>
-
-      {/* Tabs Section */}
       <div className="container mx-auto mt-10 bg-white p-6 rounded-lg shadow-lg">
-        {/* Tab Buttons */}
         <div className="flex border-b border-gray-300">
           {tabs.map((tab) => (
             <button
@@ -82,8 +71,6 @@ const ShopPage = () => {
             </button>
           ))}
         </div>
-
-        {/* Tab Content */}
         <div className="mt-4">
           {activeTab === "description" && (
             <p className="text-gray-600">
