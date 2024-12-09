@@ -138,8 +138,6 @@ const Shop = () => {
         <h1 className="text-3xl font-bold text-gray-800">Shop</h1>
         <p className="text-sm text-gray-500 font-bold">Home &gt; Shop</p>
       </div>
-
-      {/* Items Section */}
       <div className="flex ml-[20px] sm:grid-cols-2 md:grid-cols-4 gap-6 mb-[100px] w-[1240px] h-[195px]">
         {items.map((item) => (
           <div key={item.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -151,8 +149,6 @@ const Shop = () => {
           </div>
         ))}
       </div>
-
-      {/* Filter Section */}
       <div className="flex justify-between items-center bg-white p-4 rounded-lg shadow-md mb-10">
         <p className="text-sm text-gray-500">Showing all 12 results</p>
         <div className="flex items-center gap-4">
@@ -166,8 +162,6 @@ const Shop = () => {
           <button className="p-2 bg-blue-500 text-white rounded hover:bg-blue-600 w-[94px] h-[50px]">Filter</button>
         </div>
       </div>
-
-      {/* Brands Section */}
       <div className="flex justify-around items-center">
         {brands.map((brand) => (
           <div key={brand.id} className="w-24">
@@ -206,18 +200,7 @@ const Shop = () => {
         ))}
       </div>
     </div>
-
-
-
-
-
-
-
-
-    
-
-
-    <Pagination>
+<Pagination>
       <PaginationContent>
         <PaginationItem>
           <PaginationPrevious href="#" />
