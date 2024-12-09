@@ -38,7 +38,6 @@ export default function Pricing() {
       </div>
 
       <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-        {/* Free Plan */}
         <div className="premium">
           <h2 className="text-xl font-semibold mb-4">FREE</h2>
           <p className="text-gray-500 mb-4">Organize across all apps by hand</p>
@@ -48,8 +47,6 @@ export default function Pricing() {
             <li className="text-gray-600">✅ Unlimited product updates</li>
           </ul>
         </div>
-
-        {/* Standard Plan */}
         <div className="bg-[#252B42] text-white shadow-md rounded-lg p-6 text-center relative">
           
           <h2 className="text-xl font-semibold mb-4">STANDARD</h2>
@@ -62,8 +59,6 @@ export default function Pricing() {
             <li>✅ Unlimited product updates</li>
           </ul>
         </div>
-
-        {/* Premium Plan */}
         <div className="premium">
           <h2 className="text-xl font-semibold mb-4">PREMIUM</h2>
           <p className="text-gray-500 mb-4">Organize across all apps by hand</p>
@@ -87,7 +82,6 @@ export default function Pricing() {
      ))}
    </div>
    <div className="min-h-screen bg-gray-100 py-10 px-4">
-      {/* FAQ Section */}
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-2">Pricing FAQs</h1>
         <p className="text-center text-gray-500 mb-10">
@@ -116,8 +110,6 @@ export default function Pricing() {
           ))}
         </div>
       </div>
-
-      {/* Support Link */}
       <div className="text-center my-10">
         <p className="text-gray-600">
           Haven't got your answer?{' '}
@@ -126,8 +118,6 @@ export default function Pricing() {
           </a>
         </p>
       </div>
-
-      {/* Free Trial Section */}
       <div className="bg-white py-10">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Start your 14 days free trial</h2>
