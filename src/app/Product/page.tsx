@@ -5,7 +5,7 @@ export default function Team() {
     <>
     <Header3/>
     <div className="min-h-screen bg-gray-100">
-      {/* Header Section */}
+
       <div className="text-center py-16 bg-white shadow-sm">
         <h3 className="text-sm text-gray-500 uppercase tracking-wide">What We Do</h3>
         <h1 className="text-4xl font-bold mt-2">Innovation tailored for you</h1>
@@ -14,50 +14,47 @@ export default function Team() {
         </nav>
       </div>
 
-      {/* Image Grid Section */}
-
       <div className="flex max-w-7xl mx-auto py-12 px-4 w-[1150px] ml-[70px]">
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Image 1 */}
+          
           <div className="overflow-hidden rounded-lg shadow-lg h-[530px]  w-[350px] m-2">
             <img
-              src="/destop1.png" // Replace with your image URL
+              src="/destop1.png" 
               alt="Fashion 1"
               className="object-cover w-full h-full"
             />
           </div>
-          {/* Image 2 */}
           <div className=" w-[300px]">
           <div className="rounded-lg shadow-lg h-[260px] w-[361px] m-2">
             <img
-              src="/destop2.png" // Replace with your image URL
+              src="/destop2.png" 
               alt="Fashion 2"
               className="object-cover w-full h-full"
             />
           </div>
-          {/* Image 3 */}
+       
           <div className=" rounded-lg shadow-lg h-[260px] w-[361px] m-2">
             <img
-              src="/destop3.png" // Replace with your image URL
+              src="/destop3.png" 
               alt="Fashion 3"
               className="object-cover w-full h-full"
             />
           </div>
           </div>
-          {/* Image 4 */}
+        
           <div>
           <div className=" rounded-lg shadow-lg h-[260px]  w-[361px] m-2">
             <img
-              src="/destop4.png" // Replace with your image URL
+              src="/destop4.png" 
               alt="Fashion 4"
               className="object-cover w-full h-full"
             />
           </div>
-          {/* Image 5 */}
+ 
           <div className=" rounded-lg shadow-lg h-[260px] w-[361px] m-2">
             <img
-              src="/destop5.png" // Replace with your image URL
+              src="/destop5.png" 
               alt="Fashion 5"
               className="object-cover w-full h-full"
             />
@@ -233,18 +230,7 @@ export default function Team() {
           </button>
 
           <div className="flex justify-center gap-6 mt-6">
-            {/* <a href="#" className="text-gray-500 hover:text-blue-500">
-              <i className="fab fa-twitter"></i> Twitter
-            </a>
-            <a href="#" className="text-gray-500 hover:text-blue-500">
-              <i className="fab fa-facebook"></i> Facebook
-            </a>
-            <a href="#" className="text-gray-500 hover:text-blue-500">
-              <i className="fab fa-instagram"></i> Instagram
-            </a>
-            <a href="#" className="text-gray-500 hover:text-blue-500">
-              <i className="fab fa-linkedin"></i> LinkedIn
-            </a> */}
+         
             <img src="twitterB.png" alt="" className='w-[30px] h-[24px]'/>
             <img src="facebookDB.png" alt="" className='w-[30px] h-[30px]'/>
             <img src="instaBlack.png" alt="" className='w-[30px] h-[30px]'/>
